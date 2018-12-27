@@ -1,5 +1,6 @@
 ﻿<?php
-include('E:\www\Demo-ScratchCard-v2.1\includes\MobiCard.php');
+include('/var/www/testproject/Demo-ScratchCard-v2.1/includes/MobiCard.php');
+
 if(isset($_POST['NLNapThe'])){
 		$soseri = $_POST['txtSoSeri'];
 		$sopin = $_POST['txtSoPin'];
