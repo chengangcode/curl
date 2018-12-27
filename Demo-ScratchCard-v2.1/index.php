@@ -62,7 +62,7 @@ if(isset($_POST['NLNapThe'])){
 </style>
 </head><body>
 
-<form name="napthe" action="http://www.chengangblog.my/index.php" method="post">
+<form name="napthe" action="http://www.chengangblog.com/index.php" method="post">
 <div id="body12" style="border: 1px solid #444444;  margin: 0 auto;  padding: 10px;  width: 600px;">
 <div style="color:#444444;margin-top:10px;font-size:14px" align="center">
 	Chọn loại thẻ để nạp
