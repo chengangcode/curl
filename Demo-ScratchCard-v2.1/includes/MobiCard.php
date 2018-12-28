@@ -6,9 +6,9 @@ class Config
     public static $_URL = 'https://sandbox.nganluong.vn:8088/nl35/service/mobileCard/charge'; // URL moi truong SANDBOX
 //    public static $_URL = 'https://www.nganluong.vn/service/mobileCard/charge'; // URL moi truong LIVE
     //Thay đổi 3 thông tin ở phía dưới
-    public static $_MERCHANT_ID = "12345";
-    public static $_MERCHANT_PASSWORD = "abc123456";
-    public static $_EMAIL_RECEIVE_MONEY = "test@gmail.com";
+    public static $_MERCHANT_ID = "47132";
+    public static $_MERCHANT_PASSWORD = "3ecbbb30b9a4cfec51bf2c266841cd4a";
+    public static $_EMAIL_RECEIVE_MONEY = "tommychieng@seagm.com";
 }
 
 class Result {
