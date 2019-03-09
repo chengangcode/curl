@@ -7,7 +7,7 @@
     <input type="text" id="content">
     <input type="button" value="send" id="send">
         <script type="text/javascript">
-            var ws = new WebSocket("ws://118.24.16.28:4000");
+            var ws = new WebSocket("ws://118.24.16.28:6000");
             ws.onopen = function(){
                 console.log("握手成功");
             }
