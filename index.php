@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title>socket</title>
-        <script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+        <title>socket test</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <style type="text/css">
     .socket_center{
         margin:0 auto;
