@@ -7,7 +7,6 @@
         margin:0 auto;
         width: 100px;
         height: 100x;
-        background: green;
     }
     </style>
     </head>
