@@ -6,7 +6,7 @@
     <body>
     <input type="text" id="content">
     <input type="button" value="send" id="send">
-    <div></div>
+    <div id="message_info"></div>
         <script type="text/javascript">
             var ws = new WebSocket("ws://118.24.16.28:4000");
             ws.onopen = function(){
@@ -14,7 +14,7 @@
             }
             ws.onmessage = function(e){
                 console.log("message:" + e.data);
-                $("#send").append('<div>'+e.data+'</div><br>');
+                $("#message_info").append('<div>'+e.data+'</div><br>');
             }
             ws.onerror = function(){
                 console.log("error");
