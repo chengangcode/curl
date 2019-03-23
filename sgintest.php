@@ -8,7 +8,7 @@ function MakeSign($data_sgin,$key)
 	foreach ($data_sgin as $k => $v)
 	{
 		if($k != "sign"){
-			$buff .= $k . "=" . $v . "&";
+            $string .= $k . "=" . $v . "&";
 		}
 	}
 	$string = trim($string, "&");
